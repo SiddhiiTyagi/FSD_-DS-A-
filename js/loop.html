@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop</title>
+</head>
+<body>
+    <p id="demo">Cars</p>
+    <script>
+        //for loop
+        for(let i=1;i<=5;i++){
+            document.write("<br> abes college");
+        }
+        let car=["car1","car2","car3"];
+        for(let i=0;i<3;i++){
+            document.write("<br>", car[i]);
+        }
+        let text=" ";
+        let len=car.length;
+        for(let i=0;i<len;i++){
+            text+=car[i]+"<br>";
+        }
+        document.write("<br>",text);
+        document.write(document.getElementById("demo").innerHTML);
+        
+        
+    </script>
+</body>
+</html>
