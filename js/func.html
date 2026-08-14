@@ -13,10 +13,40 @@
         // }
         // document.write(abes(10,20),"<br>");
         // document.write(abes(20,30));
-        const abes=(x,y) => x+y;
-        document.write(abes(20,30));
+        // const abes=(x,y) => x+y;
+        // document.write(abes(20,30));
+        const car = () => {
+        document.write("Car Details:");
+        document.write("Name: Toyota Fortuner");
+        document.write("Cost: ₹35 Lakhs");
+        };
 
+        const aeroplane = () => {
+        document.write("Aeroplane Details:");
+        document.write("Name: Boeing 747");
+        document.write("Cost: ₹250 Crores");
+        };
 
+        const helicopter = () => {
+        document.write("Helicopter Details:");
+        document.write("Name: Apache AH-64");
+        document.write("Cost: ₹60 Crores");
+        };
+
+        let choice = prompt("Enter 1 for Car, 2 for Aeroplane, 3 for Helicopter:");
+
+        if (choice == 1) {
+            car();
+        }
+        else if (choice == 2) {
+            aeroplane();
+        }
+        else if (choice == 3) {
+            helicopter();
+        }
+        else {
+            console.log("Invalid choice");
+        }
     </script>
 </body>
 </html>
